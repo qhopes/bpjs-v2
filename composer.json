@@ -1,0 +1,22 @@
+{
+    "name": "qhopes/bpjs",
+    "description": "Wrapper for Bridging QHOPES - BPJS VClaim v2, Pcare, Aplicare, Siranap",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Heri Qtasnim",
+            "email": "herisuprasetyo@gmail.com"
+        }
+    ],
+    "license": "mit",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Qhopes\\Bpjs\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "nullpunkt/lz-string-php": "^1.3"
+    }
+}
