@@ -9,6 +9,7 @@ class Peserta extends BpjsService
     {
         return $this->get('Peserta/nokartu/'.$noKartu.'/tglSEP/'.$tglPelayananSEP);
     }
+    
     public function getByNIK($nik, $tglPelayananSEP)
     {
         return $this->get('Peserta/nik/'.$nik.'/tglSEP/'.$tglPelayananSEP);

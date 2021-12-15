@@ -10,10 +10,12 @@ class Rujukan extends BpjsService
     {
         return $this->post('Rujukan/2.0/insert', $data);
     }
+    
     public function updateRujukan($data = [])
     {
         return $this->put('Rujukan/2.0/Update', $data);
     }
+    
     public function deleteRujukan($data = [])
     {
         $this->delete('Rujukan/delete', $data);
