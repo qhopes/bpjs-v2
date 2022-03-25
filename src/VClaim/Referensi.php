@@ -10,7 +10,7 @@ class Referensi extends BpjsService
     {
         return $this->get('referensi/diagnosa/'.$keyword);
     }
-    
+
     public function poli($keyword)
     {
         return $this->get('referensi/poli/'.$keyword);
@@ -46,9 +46,9 @@ class Referensi extends BpjsService
         return $this->get('referensi/diagnosaprb');
     }
 
-    public function obatPrb($keyword)
+    public function obatPrb()
     {
-        return $this->get('referensi/obatprb/'.$keyword);
+        return $this->get('referensi/obatprb');
     }
 
     public function procedure($keyword)

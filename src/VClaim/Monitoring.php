@@ -15,10 +15,10 @@ class Monitoring extends BpjsService
     {
         return $this->get('Monitoring/Klaim/Tanggal/'.$tglPulang.'/JnsPelayanan/'.$jnsPelayanan.'/Status/'.$statusKlaim);
     }
-    
-    public function historyPelayanan($noKartu, $tglMulai, $tglAkhir)
+
+    public function historyPelayanan($noKartu, $tglAwal, $tglAkhir)
     {
-        return $this->get('monitoring/HistoriPelayanan/NoKartu/'.$noKartu.'/tglMulai/'.$tglMulai.'/tglAkhir/'.$tglAkhir);
+        return $this->get('monitoring/HistoriPelayanan/NoKartu/'.$noKartu.'/tglAwal/'.$tglAwal.'/tglAkhir/'.$tglAkhir);
     }
     
     public function dataKlaimJasaRaharja($tglMulai, $tglAkhir)

@@ -9,12 +9,10 @@ class LembarPengajuanKlaim extends BpjsService
     {
         return $this->post('LPK/insert', $data);
     }
-    
     public function updateLPK($data = [])
     {
         return $this->put('LPK/update', $data);
     }
-    
     public function deleteLPK($data = [])
     {
         return $this->delete('LPK/delete', $data);
